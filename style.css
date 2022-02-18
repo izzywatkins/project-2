@@ -2,13 +2,22 @@ body {
     background-color: #000;
 }
 
-.cls-1 {
+#poe-frame {
+  width: 500px;
+  fill: cornflowerblue;
+}
+
+#plath-frame {
+  fill: aquamarine;
+}
+
+.maintitle {
   font-size: 134px;
   font-family: Migra-Extrabold, Migra;
   font-weight: 800;
 }
 
-.cls-1, .cls-4 {
+.maintitle, .poetnames {
   fill: #fff;
 }
 
@@ -20,7 +29,7 @@ body {
   letter-spacing: 0em;
 }
 
-.cls-4 {
+.poetnames {
   font-size: 35px;
   font-family: Migra-Extralight, Migra;
   font-weight: 200;
