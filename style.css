@@ -2,41 +2,30 @@ body {
     background-color: #000;
 }
 
-#poe-frame {
-  width: 500px;
-  fill: cornflowerblue;
-}
 
-#plath-frame {
-  fill: aquamarine;
-}
 
-.maintitle {
-  font-size: 134px;
-  font-family: Migra-Extrabold, Migra;
-  font-weight: 800;
-}
-
-.maintitle, .poetnames {
-  fill: #fff;
+.cls-1, .cls-2, .cls-5 {
+  fill: rgb(255, 255, 255);
 }
 
 .cls-2 {
-  letter-spacing: 0em;
+  font-size: 134px;
+  font-family: Migra-Extrabold, Migra;
+  font-weight: 800;
 }
 
 .cls-3 {
   letter-spacing: 0em;
 }
 
-.poetnames {
-  font-size: 35px;
-  font-family: Migra-Extralight, Migra;
-  font-weight: 200;
+.cls-4 {
+  letter-spacing: 0em;
 }
 
 .cls-5 {
-  letter-spacing: -0.02em;
+  font-size: 35px;
+  font-family: Migra-Extralight, Migra;
+  font-weight: 200;
 }
 
 .cls-6 {
@@ -44,11 +33,13 @@ body {
 }
 
 .cls-7 {
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 
 .cls-8 {
-  letter-spacing: -0.02em;
-
+  letter-spacing: -0.01em;
 }
 
+.cls-9 {
+  letter-spacing: -0.02em;
+}
