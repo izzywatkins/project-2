@@ -11,15 +11,24 @@ body {
 
 h1 {
     color: white;
-    margin: auto;
+    margin: 25px;
     font-size: 35px;
-    font-family: Migra;
+    font-family: monospace;
     font-weight: lighter;
+    border: solid red 2px;
 }
 
 h2 {
     margin: auto;
     font-size: 130px;
+    color: rgb(255, 255, 255);
+    font-family:Migra-Extrabold, Migra;
+    font-weight: bold;
+}
+
+h3 {
+    margin: auto;
+    font-size: 80px;
     color: rgb(255, 255, 255);
     font-family:Migra-Extrabold, Migra;
     font-weight: bold;
@@ -37,9 +46,29 @@ p, ul {
         align-content: center;
         justify-content: center;
         display: flex;
+        flex-wrap: wrap;
     }
 
+    .container-two {
+        display: flex;
+    }
 }
+
+.container-two div{
+    border: 2px rgb(255, 255, 255) solid;
+    padding: 5px;
+}
+
+.container-two-box-one {
+    flex: 1;
+    order: 2;
+}
+
+.container-two-box-two {
+    flex: 1;
+    order: 1;
+}
+
 .container-one div {
     border: 2px rgb(255, 255, 255) solid;
     padding: 5px;
@@ -69,4 +98,21 @@ img {
     margin: auto;
     width: 330px;
     height: 300px;
+}
+
+.dickinsonpic {
+    margin-left: 12px;
+    padding-top: 20px;
+}
+
+.poepic {
+    margin-left: 12px;
+}
+
+.plathpic {
+    margin-left: 12px;
+}
+
+.angeloupic {
+    margin-left: 12px;
 }
