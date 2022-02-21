@@ -56,6 +56,25 @@ p, ul {
     .container-three {
         display:flex;
     }
+
+    .container-four {
+        display: flex;
+    }
+}
+
+.container-four div {
+    border: 2px rgb(255, 255, 255) solid;
+    padding: 5px;
+}
+
+.container-four-box-one {
+    flex: 1;
+    order: 1;
+}
+
+.container-four-box-two {
+    flex: 1;
+    order: 2;
 }
 
 .container-three div {
