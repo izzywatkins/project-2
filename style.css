@@ -52,6 +52,25 @@ p, ul {
     .container-two {
         display: flex;
     }
+
+    .container-three {
+        display:flex;
+    }
+}
+
+.container-three div {
+    border: 2px rgb(255, 255, 255) solid;
+    padding: 5px;
+}
+
+.container-three-box-one {
+    flex: 1;
+    order: 1;
+}
+
+.container-three-box-two {
+    flex: 1;
+    order: 2;
 }
 
 .container-two div{
