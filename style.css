@@ -11,11 +11,11 @@ body {
 
 h1 {
     color: white;
-    margin: 25px;
+    margin: 20px;
     font-size: 35px;
     font-family: monospace;
     font-weight: lighter;
-    border: solid red 2px;
+   /* border: solid red 2px; */
 }
 
 h2 {
@@ -47,6 +47,18 @@ p, ul {
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
+        width: 70%;
+        margin-bottom: -20px;
+    }
+
+    .container-one.left {
+        margin-right: auto;
+        justify-content: flex-start;
+    }
+
+    .container-one.right {
+        margin-left: 400px;
+        justify-content: flex-end;
     }
 
     .container-two {
@@ -108,7 +120,10 @@ p, ul {
 }
 
 .container-one div {
-    border: 2px rgb(255, 255, 255) solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /* border: 2px rgb(255, 255, 255) solid; */
     padding: 5px;
 }
 
@@ -136,21 +151,4 @@ img {
     margin: auto;
     width: 330px;
     height: 300px;
-}
-
-.dickinsonpic {
-    margin-left: 12px;
-    padding-top: 20px;
-}
-
-.poepic {
-    margin-left: 12px;
-}
-
-.plathpic {
-    margin-left: 12px;
-}
-
-.angeloupic {
-    margin-left: 12px;
 }
