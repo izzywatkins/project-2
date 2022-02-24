@@ -7,6 +7,7 @@
 
 body {
     background-color: rgb(0, 0, 0);
+    overflow: scroll;
 }
 
 h1 {
@@ -35,9 +36,9 @@ h3 {
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 28px;
     color: rgb(0, 0, 0);
-    font-family: monospace;
+    font-family:Migra-Extralight, monospace;
     font-weight: lighter;
 }
 
@@ -70,6 +71,7 @@ p, ul {
 
     .container-two {
         display: flex;
+        margin-top: 50px;
     }
 
     .container-three {
@@ -84,6 +86,9 @@ p, ul {
 
     .container-banner {
         display: flex;
+        margin-top: -15px;
+        margin-left: -10px;
+        margin-right: -10px;
     }
 }
 
@@ -121,22 +126,22 @@ p, ul {
 }
 
 .container-four div {
-    border: 2px rgb(255, 255, 255) solid;
+   /* border: 2px rgb(255, 255, 255) solid; */
     padding: 5px;
 }
 
 .container-four-box-one {
     flex: 1;
-    order: 1;
+    order: 2;
 }
 
 .container-four-box-two {
     flex: 1;
-    order: 2;
+    order: 1;
 }
 
 .container-three div {
-    border: 2px rgb(255, 255, 255) solid;
+    /* border: 2px rgb(255, 255, 255) solid; */
     padding: 5px;
 }
 
@@ -146,8 +151,14 @@ p, ul {
 }
 
 .container-three-box-two {
+    display: flex;
     flex: 1;
     order: 2;
+}
+
+.container-three-box-two img {
+    margin-right: -395px;
+    margin-top: -200px;
 }
 
 .container-two div{
@@ -205,7 +216,12 @@ img {
 .drawing {
     width: 550px;
     height: auto;
+}
 
+.arrow-right {
+    width: 600px;
+    height: auto;
+    /* border: solid red 2px; */
 }
 
 .links {
