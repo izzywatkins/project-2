@@ -34,6 +34,13 @@ h3 {
     font-weight: bold;
 }
 
+h4 {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-weight: lighter;
+}
+
 p, ul {
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -74,6 +81,43 @@ p, ul {
         display: flex;
         margin-top: 150px;
     }
+
+    .container-banner {
+        display: flex;
+    }
+}
+
+.container-banner div {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: 2px rgb(255, 255, 255) solid;*/
+    background-color: rgb(126, 126, 126);
+}
+
+.banner-one {
+    flex: 3;
+    order: 1;
+}
+
+.banner-two {
+    flex: 1;
+    order: 2;
+}
+
+.banner-three {
+    flex: 1;
+    order: 3;
+}
+
+.banner-four {
+    flex: 1;
+    order: 4;
+}
+
+.banner-five {
+    flex: 1;
+    order: 5;
 }
 
 .container-four div {
@@ -107,7 +151,7 @@ p, ul {
 }
 
 .container-two div{
-    border: 2px rgb(255, 255, 255) solid;
+    /* border: 2px rgb(255, 255, 255) solid; */
     padding: 5px;
 }
 
@@ -117,6 +161,9 @@ p, ul {
 }
 
 .container-two-box-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex: 1;
     order: 1;
 }
@@ -153,4 +200,19 @@ img {
     margin: auto;
     width: 330px;
     height: 300px;
+}
+
+.drawing {
+    width: 550px;
+    height: auto;
+
+}
+
+.links {
+    border-bottom: none;
+    color: black;
+}
+
+.links:hover {
+    color: white;
 }
