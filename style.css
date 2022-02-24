@@ -227,10 +227,12 @@ img {
 }
 
 .links {
+    text-decoration: none;
     border-bottom: none;
     color: black;
 }
 
 .links:hover {
+    text-decoration: none;
     color: white;
 }
