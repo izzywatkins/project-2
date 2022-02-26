@@ -38,13 +38,13 @@ h3 {
 }
 
 h4 {
-    font-size: 28px;
+    font-size: 32px;
     color: rgb(0, 0, 0);
     font-family:Migra-Extralight, monospace;
     font-weight: lighter;
 }
 
-p, ul {
+p {
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: monospace;
@@ -235,7 +235,7 @@ img {
 }
 
 .arrow-right {
-    width: 600px;
+    width: 550px;
     height: auto;
     /* border: solid red 2px; */
 }
@@ -259,10 +259,10 @@ img {
 
 .button {
     background-color: rgb(255, 255, 255);
+    border-radius: 8px;
     padding: 10px;
     color: #000000;
     border: 2px rgb(0, 0, 0) solid;
-    border-radius: 5%;
     text-decoration: none;
     font-size: 20px;
     font-family: monospace;
