@@ -142,6 +142,10 @@ p, ul {
     order: 1;
 }
 
+.container-four-box-two .button {
+    margin-right: 30px;
+}
+
 .container-three div {
     /* border: 2px rgb(255, 255, 255) solid; */
     padding: 5px;
@@ -159,8 +163,18 @@ p, ul {
 }
 
 .container-three-box-two img {
-    margin-right: -395px;
-    margin-top: -200px;
+    margin-right: -555px;
+    margin-top: -300px;
+}
+
+.container-three-box-two .button {
+    margin-left: -70px;
+    margin-bottom: -60px;
+}
+
+.container-four-box-two {
+    margin-left: -100px;
+    margin-top: -150px;
 }
 
 .container-two div{
@@ -226,6 +240,12 @@ img {
     /* border: solid red 2px; */
 }
 
+.arrow-left {
+    width: 400px;
+    height: auto;
+    /* border: solid red 2px; */
+}
+
 .links {
     text-decoration: none;
     border-bottom: none;
@@ -235,4 +255,19 @@ img {
 .links:hover {
     text-decoration: none;
     color: white;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color: #000000;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 5%;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.button:hover {
+    background-color: grey;
 }
