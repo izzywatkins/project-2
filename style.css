@@ -72,7 +72,7 @@ p {
     }
 
     .container-one.right {
-        margin-left: 400px;
+        margin-left: 360px;
         justify-content: flex-end;
     }
 
@@ -138,6 +138,7 @@ p {
 }
 
 .container-four-box-one {
+    margin-top: -60px;
     flex: 1;
     order: 2;
 }
@@ -157,6 +158,7 @@ p {
 }
 
 .container-three-box-one {
+    margin-top: -60px;
     flex: 1;
     order: 1;
 }
@@ -276,3 +278,25 @@ img {
 .button:hover {
     background-color: grey;
 }
+
+.poepic, .plathpic, .angeloupic, .dickinsonpic {
+    transform:rotateX(0deg);
+    animation-name: frame-move;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: center center;
+}
+
+@keyframes frame-move {
+    0% {
+      transform:rotate(0deg);
+  }
+  50% {
+      transform:rotate(1deg);
+  }
+  100% {
+    transform:rotate(0deg);
+    }
+  }
