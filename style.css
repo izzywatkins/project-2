@@ -11,6 +11,10 @@ body {
     overflow-x: hidden;
 }
 
+main {
+    overflow: hidden;
+}
+
 h1 {
     color: white;
     margin-top: 5px;
