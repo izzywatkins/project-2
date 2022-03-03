@@ -218,11 +218,13 @@ p {
 }
 
 .box-two {
+    margin-right: 50px;
     flex: 1;
     order: 2;
 }
 
 .box-three {
+    margin-right: -190px;
     flex: 1;
     order: 3;
 }
