@@ -309,14 +309,15 @@ img {
     letter-spacing: 3px;
     text-decoration: none;
     transition: 0.1s;
-    text-shadow: 0 0 6px rgba(104, 3, 3, 0.79)
-  }
+    text-shadow: 0 0 6px rgba(87, 87, 87, 0.79)
+}
+
   .button:hover {
     color: rgb(0, 0, 0);
     background: #ffffff;
-    box-shadow: 0 0 10px #ffffff, 0 0 20px #ff4d4d, 0 0 400px #ff4d4d;
+    box-shadow: 0 0 10px #ffffff, 0 0 20px #8f8f8f, 0 0 400px #3c3b3b;
     transition-delay: .3s;
-  }
+}
 
 .poepic, .plathpic, .angeloupic, .dickinsonpic {
     transform:rotateX(0deg);
