@@ -261,6 +261,12 @@ img {
     /* border: solid red 2px; */
 }
 
+.arrow-left-bigger {
+    width: 600px;
+    height: auto;
+    /* border: solid red 2px; */
+}
+
 .links {
     text-decoration: none;
     border-bottom: none;
