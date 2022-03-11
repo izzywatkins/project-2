@@ -342,6 +342,7 @@ img {
   }
 
  svg  {
+     overflow: visible;
       width: 800px;
       right: 0;
   }
