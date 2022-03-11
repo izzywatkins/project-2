@@ -353,7 +353,7 @@ img {
       fill: none;
       stroke-dasharray: 3000;
       stroke-dashoffset: 3000;
-      animation: animate 7s linear infinite;
+      animation: animate 5s linear infinite;
       stroke-linecap: round;
   }
 
