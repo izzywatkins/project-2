@@ -343,10 +343,11 @@ img {
 
  svg  {
      overflow: visible;
-      width: 800px;
+      width: 600px;
       right: 0;
   }
-  svg .arrow-line{
+  
+  svg .arrow-line, .arrow-line-two { 
       stroke: #F5E8DD;
       stroke-width: 5px;
       fill: none;
